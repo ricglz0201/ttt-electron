@@ -16,14 +16,6 @@
         <!--Other styles for the page-->
         <link rel="stylesheet" href="css/homePageStyle.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-        <!-- jQuery from CDN -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-        <!-- link to custom javascript file (always require after external JS libraries) -->
-        <script type="text/javascript" src="js/attributes.js"></script>
-        <script type="text/javascript" src="js/helper.js"></script>
-        <script type="text/javascript" src="js/listeners.js"></script>        
     </head>
     <body>
        <div class="container text-center">
@@ -40,4 +32,9 @@
            </div>
        </div>
     </body>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/attributes.js"></script>
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/listeners.js"></script>
 </html>

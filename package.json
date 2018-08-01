@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe-hl-electron",
+  "version": "1.0.0",
+  "description": "The classic game of Tic-Tac-Toe taken to a higher level.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build-osx": "electron-packager ./ --plataform darwin --icon ./img/logo.icns --out ./dist --overwrite",
+    "build-linux": "electron-packager ./ --plataform linux --icon ./img/logo.png --out ./dist --overwrite",
+    "build-windows": "electron-packager ./ --plataform win32 --icon ./img/logo.ico --out ./dist --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "electron-packager": "^12.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
