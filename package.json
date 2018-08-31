@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build-osx": "electron-packager ./ --plataform darwin --icon ./img/logo.icns --out ./dist --overwrite",
-    "build-linux": "electron-packager ./ --plataform linux --icon ./img/logo.png --out ./dist --overwrite",
-    "build-windows": "electron-packager ./ --plataform win32 --icon ./img/logo.ico --out ./dist --overwrite"
+    "build-osx": "electron-packager ./ --plataform darwin --icon ./img/logo.icns --out ~/Desktop/macOS",
+    "build-linux": "electron-packager ./ --plataform linux --icon ./img/logo.png --out ~/Desktop/linux",
+    "build-windows": "electron-packager ./ --plataform win32 --icon ./img/logo.ico --out ~/Desktop/windows"
   },
   "author": "",
   "license": "ISC",
